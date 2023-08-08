@@ -1,0 +1,55 @@
+.other-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1500;
+}
+
+.other-head {
+  height: 20vh;
+  margin-top: 16vh;
+  text-align: center;
+}
+
+.other-pic {
+  width: 415px;
+}
+
+.other-contain-about {
+  height: 20vh;
+  margin-left: 16vw;
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+}
+.other-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-none {
+  list-style: none;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.all-font {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.other-contact {
+  text-decoration-style: none;
+}
+
+@media only screen and (max-width: 422px) {
+  .other-mobile {
+    display: none;
+  }
+  .other-pic {
+    width: 225px;
+  }
+  .info {
+    font-size: 16px;
+  }
+}
